@@ -1,0 +1,102 @@
+.content {
+    margin-top: 30px !important;
+}
+.home .img-meta {
+    width: auto;
+    height: auto;
+    max-width: 25px;
+}
+.tran-sort p {
+    color: rgb(11, 37, 59);
+    font-size: 13px;
+}
+span.p-meta {
+    font-weight: bold;
+    font-size: 15px;
+}
+.home div.card-header {
+    background: #091c2c !important;
+    color: white;
+    padding: 15px;
+}
+.home .btn-icicb-stat {
+    border: 2px solid #091c2c;
+    background: unset !important;
+    color: #091c2c;
+    text-transform: unset;
+    border-radius: 30px;
+}
+.home .btn-icicb-stat:hover {
+    color: #091c2c !important;
+}
+.home .img-lock {
+    width: auto;
+    height: auto;
+    max-height: 25px;
+}
+.home .elipse-img {
+    width: auto;
+    height: auto;
+}
+.home .fa-circle {
+    color: #091c2c;
+}
+.home * {
+    color: #091c2c;
+}
+.home .fa-sign-out-alt,
+.fa-heart {
+    font-size: 30px;
+    padding-right: 20px;
+}
+.home .announce .row {
+    background: #f4f7fa;
+    margin: 0px 20px 20px;
+    padding: 20px 0px;
+}
+.home .announce .card-body {
+    padding: 0px;
+}
+.home .btn-connect {
+    border: none;
+    background: #091c2c;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.home .icicb-sort img {
+    width: auto;
+    height: auto;
+}
+.home .icicb-sort > div {
+    display: flex;
+}
+.home .icicb-sort > div .farm {
+    flex-grow: 2;
+    background: #091c2c;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.home .icicb-sort > div .farm i {
+    color: white;
+    padding-left: 20px;
+}
+.home .icicb-sort > div .harvest {
+    flex-grow: 3;
+    background: white;
+}
+.home .icicb-sort > div .harvest > div {
+    text-align: center;
+    margin: 10px 0px;
+    border-right: 1px solid #cfd7df;
+}
+.home .icicb-sort > div .wallet {
+    flex-grow: 5;
+    padding: 10px 0px;
+    text-align: center;
+    background: white;
+}
+.home .card-stats .fa-dollar-sign {
+    padding-left: 20px;
+}

@@ -1,0 +1,34 @@
+.content {
+    margin-top: 30px !important;
+}
+.exchange .btn-connect {
+    border: none;
+    background: #091c2c;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.exchange .ex-sort {
+    justify-content: center;
+}
+.exchange .ex-sort > div {
+    background-color: #091c2c;
+    color: white;
+}
+.exchange .ex-sort > div p {
+    margin: 15px;
+    padding: 10px;
+    border-right: 1px solid white;
+    margin-right: 0px;
+}
+.exchange .ex-sort > div:last-child p {
+    border-right: none;
+}
+.exchange .ex-sort > div:first-child {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.exchange .ex-sort > div:last-child {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}

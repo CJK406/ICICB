@@ -1,0 +1,174 @@
+.content {
+    margin-top: 30px !important;
+}
+.farm .btn-connect {
+    border: none;
+    background: #091c2c;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.farm .btn-active {
+    border: none;
+    background: #091c2c;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-right: 5%;
+}
+.farm .opt-left {
+    display: flex;
+    align-items: center;
+}
+.farm .opt-left i {
+    font-size: 20px;
+}
+.farm .opt-left i.fa-th-list {
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 10%;
+}
+.farm .opt-left p {
+    margin: 0px;
+}
+.farm .opt-left p:nth-child(4) {
+    padding-right: 15%;
+}
+.farm .circle1 {
+    width: auto;
+    height: auto;
+    max-width: 40px;
+}
+.farm .circle2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.farm .icon-group {
+    position: relative;
+}
+.farm .percent {
+    display: inline-block;
+    background: #091c2c;
+    color: white;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+.farm .card .card-header .card-title {
+    display: flex;
+    justify-content: end;
+}
+.farm .usd {
+    display: inline-block;
+    border: 1px solid #091c2c;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 10px;
+}
+.farm .usd img {
+    width: auto;
+    position: absolute;
+    left: 6px;
+    top: 2px;
+}
+.farm .btn-harvest {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: #a1a9af;
+    color: white;
+    font-size: 11px;
+}
+.farm .btn-wallet {
+    border: 1px solid #091c2c;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background: white;
+    color: #091c2c;
+}
+.farm .center-wrapper {
+    justify-content: center;
+}
+.farm .center-wrapper .text-left {
+    text-align: center !important;
+}
+.farm hr {
+    border-top: 1px solid #2f2f41;
+}
+.farm .row {
+    padding-top: 10px;
+}
+.farm .numbers .card-title {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.farm p,
+.farm div {
+    color: #091c2c;
+}
+
+.farm .card-stats .card-body .numbers .card-category {
+    color: #091c2c !important;
+    font-weight: bold;
+}
+.farm .search {
+    position: relative;
+}
+.farm .search input {
+    border: 1px solid #091c2c;
+    border-radius: 30px;
+    padding: 8px 10px;
+}
+.farm .search i {
+    position: absolute;
+    top: 22%;
+    right: 3%;
+    font-size: 20px;
+}
+.farm .opt-right {
+    display: flex;
+    justify-content: space-between;
+}
+.farm .opt-right > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.farm .opt-right > div p {
+    margin-bottom: 0px;
+    margin-right: 25px;
+}
+.farm .search-opt {
+    align-items: center;
+}
+.farm .note {
+    margin: 30px 0px;
+}
+.farm .opt-right select {
+    border: 1px solid #091c2c;
+    padding: 8px;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 1020px) {
+    .farm .opt-left p:nth-child(4) {
+        padding-right: 7%;
+    }
+    .farm .opt-right {
+        flex-direction: column;
+    }
+    .farm .opt-right > div:first-child {
+        margin-bottom: 10px;
+    }
+    .farm .opt-right select {
+        padding: 8px 50px;
+    }
+    .farm .css-mh4vj5.Switch-checked {
+        left: 49%;
+    }
+}

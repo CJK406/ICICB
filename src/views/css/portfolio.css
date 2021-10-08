@@ -1,0 +1,48 @@
+.content {
+    margin-top: 30px !important;
+}
+.portfolio .btn-connect {
+    border: none;
+    background: #091c2c;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.portfolio .top-header {
+    display: flex;
+    padding: 30px 20px;
+    background: #091c2c;
+    color: white;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.portfolio .top-header i {
+    padding-right: 10px;
+}
+.portfolio .btn-search {
+    background: #091c2c;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.portfolio .card-header {
+    background: #091c2c !important;
+    color: white;
+}
+.portfolio hr {
+    border-top: 1px solid #2f2f41;
+}
+.portfolio .card-footer .row {
+    align-items: center;
+}
+.portfolio .card-footer button {
+    background: white;
+    border: 1px solid #091c2c;
+    color: #091c2c;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.portfolio > .row:last-child {
+    justify-content: center;
+}

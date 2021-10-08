@@ -1,0 +1,21 @@
+.logo-img {
+    text-align: center;
+}
+.logo-img img {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    margin: 30px 0px;
+}
+.sidebar .logo:after {
+    background-color: unset !important;
+}
+.sidebar .nav li > a,
+.off-canvas-sidebar .nav li > a {
+    text-transform: unset;
+    font-size: 15px;
+}
+.sidebar[data-color="black"]:after,
+.off-canvas-sidebar[data-color="black"]:after {
+    background: #091c2c;
+}
