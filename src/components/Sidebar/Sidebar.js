@@ -21,7 +21,13 @@ import { NavLink } from "react-router-dom";
 import { Nav } from "reactstrap";
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
+import { ProSidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import { AiOutlineDashboard } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import "react-pro-sidebar/dist/css/styles.css";
+import whiteCircle from "../../assets/img/white_circle.png";
 import logo from "../../assets/img/logo.png";
+import social from "../../assets/img/social.png";
 import "./Sidebar.css";
 
 var ps;
@@ -65,7 +71,7 @@ function Sidebar(props) {
             <div className="sidebar-wrapper" ref={sidebar}>
                 <Nav>
                     {props.routes.map((prop, key) => {
-                        return (
+                        return prop.path !== "/inspirit" ? (
                             <li
                                 className={
                                     activeRoute(prop.path) +
@@ -83,16 +89,44 @@ function Sidebar(props) {
                                     }}
                                 >
                                     <i className={prop.icon} />
-
                                     <p>{prop.name}</p>
                                 </NavLink>
                             </li>
+                        ) : (
+                            <ProSidebar>
+                                <Menu iconShape="circle">
+                                    <SubMenu
+                                        title="Boosted Farms"
+                                        icon={<AiOutlineDashboard />}
+                                    >
+                                        <MenuItem>
+                                            <NavLink to="/admin/inspirit">
+                                                InSpirit
+                                            </NavLink>
+                                        </MenuItem>
+                                        <MenuItem>
+                                            <Link to="#">Staking</Link>
+                                        </MenuItem>
+                                    </SubMenu>
+                                </Menu>
+                            </ProSidebar>
                         );
                     })}
                 </Nav>
+                <div className="balance">
+                    <img src={whiteCircle} alt="balance" />
+                    <p>$0,23</p>
+                </div>
+                <div className="social">
+                    <img src={social} alt="social" />
+                </div>
+                <div className="globe">
+                    <i class="fas fa-globe"></i>
+                    <p>EN</p>
+                </div>
+                <p className="p-right">Copyright©2021 All rights reserved</p>
             </div>
         </div>
     );
 }
-
 export default Sidebar;

@@ -4,31 +4,326 @@
 .exchange .btn-connect {
     border: none;
     background: #091c2c;
-    color: white;
+    color: #ffffff;
     border-radius: 20px;
     padding: 8px 20px;
 }
 .exchange .ex-sort {
+    margin: auto;
+}
+.exchange .ex-all {
     justify-content: center;
 }
-.exchange .ex-sort > div {
-    background-color: #091c2c;
-    color: white;
+.exchange .ex-sort button {
+    background: #091c2c;
+    border-right: 1px solid #7c8187;
+    padding: 25px;
+    width: 25%;
 }
-.exchange .ex-sort > div p {
-    margin: 15px;
-    padding: 10px;
-    border-right: 1px solid white;
-    margin-right: 0px;
-}
-.exchange .ex-sort > div:last-child p {
-    border-right: none;
-}
-.exchange .ex-sort > div:first-child {
+.exchange .ex-sort button:first-child {
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
 }
-.exchange .ex-sort > div:last-child {
+.exchange .ex-sort button:last-child {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
+}
+.exchange .ex-sort .css-1aquho2-MuiTabs-indicator {
+    background: unset;
+}
+.exchange .ex-sort button:focus:not(:focus-visible) {
+    color: white;
+    background: #113049;
+}
+.exchange .ex-sort button:not(:disabled),
+[type="button"]:not(:disabled) {
+    color: #7c8187;
+}
+.exchange .ex-detail {
+    justify-content: center;
+    margin-top: 40px;
+}
+.exchange .ex-detail .card-header {
+    background: #091c2c;
+    color: white;
+    padding: 20px 30px;
+}
+.exchange .ex-detail .trade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exchange .ex-detail .trade p {
+    margin: 0px;
+}
+.exchange .ex-detail .trade svg {
+    margin-left: 10px;
+}
+.exchange .ex-detail .market {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.exchange .ex-detail .market p {
+    padding-left: 10px;
+}
+.exchange .ex-detail .market button {
+    border: none;
+    background: #091c2c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.exchange .ex-detail .currency {
+    background: #f4f7fa;
+}
+.exchange .ex-detail .currency-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 20px;
+}
+.exchange .ex-detail .currency-name p {
+    margin: 0px;
+    padding: 0px 10px;
+}
+.exchange .ex-detail .currency-name img {
+    width: auto;
+}
+.exchange .ex-detail .cur-value {
+    text-align: center;
+}
+.exchange .ex-detail .cur-value input {
+    width: 80%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.exchange .ex-detail .arrow {
+    text-align: center;
+    padding: 25px 0px;
+}
+.exchange .ex-detail .arrow i {
+    font-size: 50px;
+}
+.exchange .ex-detail .unlock button {
+    border: 1px solid #091c2c;
+    background: white;
+    border-radius: 20px;
+    color: #091c2c;
+    padding: 5px 8px;
+}
+.exchange .ex-detail .unlock {
+    padding: 20px 0px;
+    text-align: center;
+}
+/* Liquidity */
+.exchange .liquidity {
+    margin: auto;
+}
+.exchange .liquidity button {
+    border: 1px solid #091c2c;
+    background: white;
+    border-radius: 20px;
+    color: #091c2c;
+    padding: 5px 8px;
+}
+.exchange .liquidity .card-header {
+    background: #091c2c;
+    color: white;
+    padding: 20px 30px;
+}
+.exchange .liquidity {
+    justify-content: center;
+    margin-top: 40px;
+}
+.exchange .liquidity .trade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exchange .liquidity .unlock {
+    text-align: center;
+    padding: 30px 0px;
+}
+.exchange .liquidity .card-footer {
+    background: #091c2c;
+    color: white;
+    padding: 20px 30px;
+}
+.exchange .liquidity .join .card-body {
+    background: #f4f7fa;
+    padding: 60px 40px;
+    text-align: center;
+    margin: 20px;
+}
+.exchange .liquidity .join .card-footer {
+    background: unset;
+    color: #091c2c;
+}
+.exchange .liquidity .join .card-footer i {
+    padding: 0px 10px;
+}
+.exchange .liquidity .top {
+    margin-bottom: 0px;
+}
+.exchange .liquidity .join {
+    border-radius: unset;
+}
+.exchange .liquidity .trade svg {
+    margin-left: 10px;
+}
+/* Zap */
+.exchange .zap {
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.exchange .zap button {
+    border: 1px solid #091c2c;
+    background: white;
+    border-radius: 20px;
+    color: #091c2c;
+    padding: 5px 8px;
+}
+.exchange .zap .card-header {
+    background: #091c2c;
+    color: white;
+    padding: 20px 30px;
+}
+.exchange .zap .trade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.exchange .zap .trade p {
+    margin: 0px;
+}
+.exchange .zap .currency-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exchange .zap .currency-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.exchange .zap .currency-name p {
+    margin: 0px 10px;
+}
+.exchange .zap img {
+    width: auto;
+    height: auto;
+    max-width: 35px;
+}
+.exchange .zap input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.exchange .zap .ftm {
+    background: #f4f7fa;
+    padding: 35px 10px 10px;
+    width: 40%;
+    height: 145px;
+}
+.currency-rate i {
+    font-size: 35px;
+}
+.exchange .zap .lp {
+    background: #f4f7fa;
+    padding: 14px 10px 10px;
+    width: 40%;
+    height: 145px;
+}
+.exchange .zap .lp > div {
+    display: flex;
+    align-items: center;
+    padding: 10% 0px;
+    justify-content: center;
+}
+.exchange .zap .lp p {
+    margin: 0px;
+}
+.exchange .zap .card-footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Migreate */
+.exchange .migrate {
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.exchange .migrate button {
+    border: 1px solid #091c2c;
+    background: white;
+    border-radius: 20px;
+    color: #091c2c;
+    padding: 5px 8px;
+}
+.exchange .migrate .card-header {
+    background: #091c2c;
+    color: white;
+    padding: 20px 30px;
+}
+.exchange .migrate .trade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.exchange .migrate .trade p {
+    margin: 0px;
+}
+.exchange .migrate .lp {
+    background: #f4f7fa;
+    padding: 14px 10px 10px;
+    width: 40%;
+    height: 170px;
+}
+.exchange .migrate input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.exchange .migrate .currency-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 22px;
+    padding-top: 20px;
+}
+.exchange .migrate .currency-name p {
+    margin: 0px;
+}
+.exchange .migrate .card-footer {
+    text-align: center;
+    padding: 20px 0px;
+}
+.exchange .migrate .currency-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exchange .migrate .dex,
+.exchange .migrate .lp {
+    width: 40%;
+}
+@media only screen and (max-width: 1020px) {
+    .exchange .zap .trade {
+        flex-direction: column;
+    }
+    .exchange .liquidity .trade {
+        flex-direction: column;
+    }
+    .exchange .migrate .trade {
+        flex-direction: column;
+    }
 }

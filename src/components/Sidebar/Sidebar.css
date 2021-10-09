@@ -19,3 +19,48 @@
 .off-canvas-sidebar[data-color="black"]:after {
     background: #091c2c;
 }
+.pro-sidebar > .pro-sidebar-inner {
+    background: #091c2c;
+}
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background: #091c2c;
+}
+.balance {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 10%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.balance p {
+    margin: 0px 0px 0px 10px;
+}
+.balance img {
+    width: auto;
+    height: auto;
+    max-width: 25px;
+}
+.globe {
+    color: #6e747a;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 20px;
+}
+.globe p {
+    margin: 0px;
+    margin-left: 5px;
+}
+.social {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.p-right {
+    color: #6e747a;
+    font-size: 12px;
+    padding-top: 50px;
+    text-align: center;
+}

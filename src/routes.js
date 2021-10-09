@@ -28,6 +28,7 @@ import Home from "views/Home.js";
 import Portfolio from "views/Portfolio.js";
 import Farms from "views/Farms.js";
 import Exchange from "views/Exchange.js";
+import Inspirit from "views/Inspirit.js";
 
 var routes = [
     {
@@ -59,6 +60,13 @@ var routes = [
         layout: "/admin",
     },
     {
+        path: "/inspirit",
+        name: "Dashboard",
+        icon: "nc-icon nc-bank",
+        component: Inspirit,
+        layout: "/admin",
+    },
+    {
         path: "/lend",
         name: "Lend/Barrow",
         icon: "fas fa-hand-holding-usd",
@@ -73,8 +81,8 @@ var routes = [
     //     layout: "/admin",
     // },
     {
-        path: "/icons",
-        name: "Icons",
+        path: "/bridge",
+        name: "Bridge",
         icon: "fa-bridge",
         component: Icons,
         layout: "/admin",
