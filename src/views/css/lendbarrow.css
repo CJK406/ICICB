@@ -475,6 +475,14 @@ td {
 	.lend .wbtc span {
     	font-size: 10px;
     }
+    .lend .wbtc .card-body {
+    	padding: 20px 30px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .lend .wbtc .card-body {
+    	padding: 20px 10px;
+    }
 }
 @media only screen and (max-width: 1020px) {
     .lend .banner > div:last-child {

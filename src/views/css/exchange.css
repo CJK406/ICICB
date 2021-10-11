@@ -326,4 +326,19 @@
     .exchange .migrate .trade {
         flex-direction: column;
     }
+    .exchange .zap .currency-rate {
+        flex-direction: column;
+    }
+    .exchange .zap .ftm {
+        width: 100%;
+    }
+    .exchange .zap .lp {
+        width: 100%;
+    }
+    .currency-rate i {
+        margin: 10px;
+    }
+    .exchange .ex-all > div {
+        padding: 0px;
+    }
 }
