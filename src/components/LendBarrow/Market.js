@@ -1,4 +1,16 @@
 import React from "react";
+import usdImg from "../../assets/img/white_usd.png";
+import elipsa2 from "../../assets/img/elipsa2.png";
+import bigCircle from "../../assets/img/big_circle.png";
+import circle1 from "../../assets/img/elipsa3.png";
+import circle2 from "../../assets/img/elipsa2.png";
+import circle3 from "../../assets/img/elipsa3.png";
+import AutoFiiter from "../AutoFiiter";
+import Checkbox from "@mui/material/Checkbox";
+import { styled } from "@mui/material/styles";
+import LinearProgress, {
+    linearProgressClasses,
+} from "@mui/material/LinearProgress";
 import {
     Card,
     CardHeader,
@@ -11,22 +23,6 @@ import {
     Col,
     Table,
 } from "reactstrap";
-import arrowImg from "../assets/img/arrow.png";
-import logo1Img from "../assets/img/logo1.png";
-import maskImg from "../assets/img/mask.png";
-import "./css/inspirit.css";
-import { styled } from "@mui/material/styles";
-import LinearProgress, {
-    linearProgressClasses,
-} from "@mui/material/LinearProgress";
-import usdImg from "../assets/img/white_usd.png";
-import elipsa2 from "../assets/img/elipsa2.png";
-import bigCircle from "../assets/img/big_circle.png";
-import circle1 from "../assets/img/elipsa3.png";
-import circle2 from "../assets/img/elipsa2.png";
-import AutoFiiter from "../components/AutoFiiter";
-import Checkbox from "@mui/material/Checkbox";
-
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     height: 10,
@@ -40,20 +36,177 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
         backgroundColor: theme.palette.mode === "light" ? "#091c2c" : "#308fe8",
     },
 }));
-export default function Inspirit() {
+
+export default function Market() {
     return (
-        <div className="content inspirit">
-            <Row className="banner">
-                <Col lg="6" md="12" sm="12" className="mb-3">
-                    <CardImg className="img-arrow" src={arrowImg} alt="arrow" />
-                    <CardImg className="img-logo" src={logo1Img} alt="arrow" />
+        <>
+            <div className="balance-status">
+                <div className="supply">
+                    <CardText>Supply balance</CardText>
+                    <CardText>$0</CardText>
+                </div>
+
+                <div className="apy">
+                    <CardImg src={bigCircle} />
+                    <div>
+                        <p>Net APY</p>
+                        <p>0%</p>
+                    </div>
+                </div>
+
+                <div className="barrow">
+                    <CardText>Barrow balance</CardText>
+                    <CardText>$0</CardText>
+                </div>
+            </div>
+            <div className="balance-pro">
+                <p>
+                    Liquidation
+                    <br />
+                    Limit
+                    <br />
+                    (0%)
+                </p>
+                <BorderLinearProgress variant="determinate" value={0} />
+                <p>0%</p>
+            </div>
+            <Row className="tbl-balance">
+                <Col lg="6" md="12" sm="12">
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>SuCardTitleply Markets</CardTitle>
+                            <CardTitle>
+                                (Click on an asset to Supply/Withdraw)
+                            </CardTitle>
+                        </CardHeader>
+                        <CardBody>
+                            <Table>
+                                <thead className="text-primary">
+                                    <th className="text-left">ASSET</th>
+                                    <th className="text-center">APY</th>
+                                    <th className="text-center">WALLET</th>
+                                    <th className="text-center">COLLATERAL</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="text-left">
+                                            <CardImg
+                                                src={circle3}
+                                                className="circle3"
+                                            />
+                                            <p> ETHER</p>
+                                        </td>
+                                        <td className="text-center">+ 2,345</td>
+                                        <td className="text-center">0 WETH</td>
+                                        <td className="text-center">
+                                            <CardImg
+                                                src={circle2}
+                                                className="circle2"
+                                            />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text-left">
+                                            <CardImg
+                                                src={circle3}
+                                                className="circle3"
+                                            />
+                                            <p> ETHER</p>
+                                        </td>
+                                        <td className="text-center">+ 2,345</td>
+                                        <td className="text-center">0 WETH</td>
+                                        <td className="text-center">
+                                            <CardImg
+                                                src={circle2}
+                                                className="circle2"
+                                            />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text-left">
+                                            <CardImg
+                                                src={circle3}
+                                                className="circle3"
+                                            />
+                                            <p> ETHER</p>
+                                        </td>
+                                        <td className="text-center">+ 2,345</td>
+                                        <td className="text-center">0 WETH</td>
+                                        <td className="text-center">
+                                            <CardImg
+                                                src={circle2}
+                                                className="circle2"
+                                            />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </CardBody>
+                    </Card>
                 </Col>
-                <Col lg="6" md="12" sm="12" className="mb-3 text-right">
-                    <button className="btn-mask">
-                        Add ICICB to<span>MetaMask</span>
-                        <CardImg className="img-mask" src={maskImg} />
-                    </button>
-                    <button className="btn-connect">CONNECT</button>
+                <Col lg="6" md="12" sm="12">
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>Barrow Markets</CardTitle>
+                            <CardTitle>
+                                (Click on an asset to Borrow/Repay)
+                            </CardTitle>
+                        </CardHeader>
+                        <CardBody>
+                            <Table>
+                                <thead className="text-primary">
+                                    <th className="text-left">ASSET</th>
+                                    <th className="text-center">APY</th>
+                                    <th className="text-center">WALLET</th>
+                                    <th className="text-center">LIQUIDITY</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="text-left">
+                                            <CardImg
+                                                src={circle3}
+                                                className="circle3"
+                                            />
+                                            <p> ETHER</p>
+                                        </td>
+                                        <td className="text-center">+ 2,345</td>
+                                        <td className="text-center">0 WETH</td>
+                                        <td className="text-center">
+                                            $ 23,345k
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text-left">
+                                            <CardImg
+                                                src={circle3}
+                                                className="circle3"
+                                            />
+                                            <p> ETHER</p>
+                                        </td>
+                                        <td className="text-center">+ 2,345</td>
+                                        <td className="text-center">0 WETH</td>
+                                        <td className="text-center">
+                                            $ 23,345k
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text-left">
+                                            <CardImg
+                                                src={circle3}
+                                                className="circle3"
+                                            />
+                                            <p> ETHER</p>
+                                        </td>
+                                        <td className="text-center">+ 2,345</td>
+                                        <td className="text-center">0 WETH</td>
+                                        <td className="text-center">
+                                            $ 23,345k
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </CardBody>
+                    </Card>
                 </Col>
             </Row>
             <Row className="stock">
@@ -397,6 +550,6 @@ export default function Inspirit() {
                     </Card>
                 </Col>
             </Row>
-        </div>
+        </>
     );
 }

@@ -59,6 +59,7 @@ export default function Home() {
                                                 style={{
                                                     width: "auto",
                                                     height: "auto",
+                                                    margin: "0px 10px",
                                                 }}
                                                 src={logo1}
                                                 alt="logo1"

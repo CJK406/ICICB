@@ -5,6 +5,7 @@
     width: auto;
     height: auto;
     max-width: 25px;
+    margin-left: 10px;
 }
 .tran-sort p {
     color: rgb(11, 37, 59);
@@ -33,6 +34,7 @@ span.p-meta {
     width: auto;
     height: auto;
     max-height: 25px;
+    margin-right: 10px;
 }
 .home .elipse-img {
     width: auto;
@@ -67,6 +69,7 @@ span.p-meta {
 .home .icicb-sort img {
     width: auto;
     height: auto;
+    margin-right: 10px;
 }
 .home .icicb-sort > div {
     display: flex;
@@ -81,6 +84,7 @@ span.p-meta {
 .home .icicb-sort > div .farm i {
     color: white;
     padding-left: 20px;
+    margin-right: 10px;
 }
 .home .icicb-sort > div .harvest {
     flex-grow: 3;

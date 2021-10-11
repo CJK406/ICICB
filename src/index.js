@@ -34,7 +34,7 @@ ReactDOM.render(
                 path="/admin"
                 render={(props) => <AdminLayout {...props} />}
             />
-            <Redirect to="/admin/dashboard" />
+            <Redirect to="/admin/home" />
         </Switch>
     </BrowserRouter>,
     document.getElementById("root")

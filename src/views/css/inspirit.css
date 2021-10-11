@@ -1,0 +1,341 @@
+.content {
+    margin-top: 30px !important;
+}
+.inspirit {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    color: #091c2c;
+}
+.card {
+    color: #091c2c;
+}
+.inspirit .banner img {
+    width: auto;
+    height: auto;
+}
+.inspirit .banner img.img-arrow {
+    max-width: 60px;
+    max-height: 20px;
+}
+.inspirit .banner > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inspirit .banner img.img-logo {
+    min-width: 100px;
+    min-height: 30px;
+}
+.inspirit .banner img.img-mask {
+    max-width: 17px;
+    padding-bottom: 2%;
+}
+.inspirit .banner span {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.inspirit .banner .btn-mask {
+    border: 1px solid #091c2c;
+    color: #091c2c;
+    padding: 5px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.inspirit .banner .btn-connect {
+    border: none;
+    background: #091c2c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.inspirit .stock {
+    background: white;
+    color: #091c2c;
+    border: none;
+    padding: 0px;
+    margin: 40px 0px 20px;
+}
+.inspirit .stock p.price {
+    color: #6e747a;
+}
+.inspirit .stock .bal-item {
+    margin: 20px 0px;
+    padding: 0px 40px;
+}
+.inspirit .stock .bal-item p:first-child {
+    margin-bottom: 6px;
+}
+.inspirit .stock > div:nth-child(2) .bal-item {
+    border-left: 1px solid #6e747a;
+    border-right: 1px solid #6e747a;
+}
+.inspirit .stock > div:nth-child(3) .bal-item {
+    border-right: 1px solid #6e747a;
+}
+.inspirit .stock > div:nth-child(1) .bal-item p,
+.inspirit .stock > div:nth-child(2) .bal-item p {
+    margin-bottom: 16px;
+}
+.inspirit .month-price .spi .card-header {
+    background: #091c2c;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.inspirit .month-price .spi .usd {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+.inspirit .month-price .spi .usd img {
+    width: auto;
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    max-width: 8px;
+}
+.inspirit .month-price .spi .icicb-inp {
+    position: relative;
+}
+.inspirit .month-price .spi input {
+    width: 100%;
+    border: none;
+    background: #f4f7fa;
+    padding: 10px 10px 10px 53px;
+    border-radius: 20px;
+}
+.inspirit .month-price .spi .icicb-inp img {
+    width: auto;
+    position: absolute;
+    top: 19%;
+    left: 3%;
+}
+.inspirit .month-price .spi .lock-period {
+    display: flex;
+    justify-content: space-between;
+}
+.inspirit .month-price .spi .lock-period > div {
+    text-align: center;
+}
+.inspirit .month-price .spi .card-body p:nth-child(3) {
+    margin: 20px 0px;
+}
+.inspirit .month-price .spi button {
+    margin: 30px 0px;
+    width: 100%;
+    border: 1px solid #091c2c;
+    color: #091c2c;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.inspirit .month-price .vote .card-header {
+    background: #091c2c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inspirit .month-price .vote .big-circle {
+    width: auto;
+    max-width: 150px;
+}
+.inspirit .month-price .vote .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+.inspirit .month-price .vote .card-body > div {
+    width: 70%;
+}
+.inspirit .month-price .vote .icon-group {
+    position: relative;
+}
+.inspirit .month-price .vote .circle1 {
+    width: auto;
+    height: auto;
+    max-width: 40px;
+}
+.inspirit .month-price .vote .circle2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.inspirit .month-price .vote tr td:first-child {
+    display: flex;
+    align-items: center;
+}
+.inspirit .month-price .vote tr td:first-child p {
+    margin: 0px;
+    padding-left: 10px;
+}
+.inspirit .month-price .vote .table th,
+td {
+    border-top: none !important;
+    color: #091c2c;
+}
+.inspirit .ic-stat .card-header {
+    background: #091c2c;
+    color: white;
+}
+.inspirit .ic-stat .card-body > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inspirit .ic-stat .card {
+    margin-bottom: 0px;
+}
+.inspirit .ic-stat button {
+    width: 100%;
+    border: #091c2c;
+    background: white;
+    border: 1px solid #091c2c;
+    padding: 6px;
+    border-radius: 20px;
+}
+.inspirit .ic-stat .next-block .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.inspirit .ic-stat .next-block .card-body > div {
+    text-align: center;
+    display: unset;
+}
+.inspirit .ic-stat .next-block .date {
+    display: flex;
+    align-items: center;
+}
+.inspirit .ic-stat .next-block input {
+    width: 30px;
+    height: 40px;
+    border: none;
+    background: #f4f7fa;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.inspirit .ic-stat .boost .card-header {
+    background: #091c2c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inspirit .ic-stat .boost .boost-left {
+    width: 65%;
+    display: unset;
+}
+.inspirit .ic-stat .boost .boost-right {
+    padding-top: 15%;
+    width: 35%;
+    display: unset;
+}
+.inspirit .ic-stat .boost .boost-right img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    margin-left: 30%;
+}
+.inspirit .ic-stat .boost .boost-left .auto-filter {
+    width: 100%;
+    padding: 30px 0px 16% 20px;
+}
+.inspirit .ic-stat .boost .card-body {
+    display: flex;
+    padding: 0px;
+}
+.inspirit .ic-stat .boost .boost-left .spec-header {
+    display: flex;
+}
+.inspirit .ic-stat .boost .boost-left .spec-header > div:last-child {
+    display: flex;
+}
+.inspirit .ic-stat .boost .boost-left .spec-header .card-header {
+    width: 60%;
+}
+.inspirit .boost .icon-group {
+    position: relative;
+}
+.inspirit .boost .circle1 {
+    width: auto;
+    height: auto;
+    max-width: 40px;
+}
+.inspirit .boost .circle2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.inspirit .boost .per-vote {
+    padding: 30px;
+}
+.inspirit .boost .per-vote > div {
+    position: relative;
+    margin-bottom: 20px;
+}
+.inspirit .boost .per-vote > div .icon-group {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.inspirit .boost .per-vote > div input {
+    width: 100%;
+    border: none;
+    background: #f4f7fa;
+    border-radius: 30px;
+    height: 60px;
+    padding-left: 96px;
+}
+.inspirit .boost .per-vote > p:last-child {
+    margin-top: 20px;
+}
+.inspirit .ic-stat .boost .boost-left .card {
+    border-radius: 0px;
+    box-shadow: unset;
+}
+@media only screen and (max-width: 1020px) {
+    .inspirit .banner > div:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inspirit {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+    .inspirit .stock > div:nth-child(2) .bal-item {
+        border-left: none;
+        border-right: none;
+    }
+    .inspirit .stock > div:nth-child(3) .bal-item {
+        border-right: none;
+    }
+    .inspirit .month-price .vote .card-body > div {
+        width: 100%;
+    }
+    .inspirit .month-price .vote .card-body {
+        flex-direction: column;
+    }
+    .inspirit .ic-stat .boost .card-body {
+        flex-direction: column;
+    }
+    .inspirit .ic-stat .boost .boost-left {
+        width: 100%;
+    }
+    .inspirit .ic-stat .boost .boost-right {
+        width: 100%;
+    }
+}

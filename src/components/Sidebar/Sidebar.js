@@ -88,7 +88,20 @@ function Sidebar(props) {
                                         alignItems: "center",
                                     }}
                                 >
-                                    <i className={prop.icon} />
+                                    {prop.path === "/bridge" ? (
+                                        <i>
+                                            <img
+                                                className="bridge-icon"
+                                                src={prop.icon}
+                                                alt="icon"
+                                            />
+                                        </i>
+                                    ) : (
+                                        <>
+                                            <i className={prop.icon} />
+                                        </>
+                                    )}
+
                                     <p>{prop.name}</p>
                                 </NavLink>
                             </li>

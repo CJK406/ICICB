@@ -1,0 +1,517 @@
+.content {
+    margin-top: 30px !important;
+}
+.lend {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    color: #091c2c;
+}
+.card {
+    color: #091c2c;
+}
+.lend .banner img {
+    width: auto;
+    height: auto;
+}
+.lend .banner img.img-arrow {
+    max-width: 60px;
+    max-height: 20px;
+}
+.lend .banner > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4%;
+}
+.lend .banner img.img-logo {
+    min-width: 100px;
+    min-height: 30px;
+}
+.lend .banner img.img-mask {
+    max-width: 17px;
+    padding-bottom: 2%;
+}
+.lend .banner span {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.lend .banner .btn-mask {
+    border: 1px solid #091c2c;
+    color: #091c2c;
+    padding: 5px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.lend .banner .btn-connect {
+    border: none;
+    background: #091c2c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.lend .stock {
+    background: white;
+    color: #091c2c;
+    border: none;
+    padding: 0px;
+    margin: 40px 0px 20px;
+}
+.lend .stock p.price {
+    color: #6e747a;
+}
+.lend .stock .bal-item {
+    margin: 20px 0px;
+    padding: 0px 40px;
+}
+.lend .stock .bal-item p:first-child {
+    margin-bottom: 6px;
+}
+.lend .stock > div:nth-child(2) .bal-item {
+    border-left: 1px solid #6e747a;
+    border-right: 1px solid #6e747a;
+}
+.lend .stock > div:nth-child(3) .bal-item {
+    border-right: 1px solid #6e747a;
+}
+.lend .stock > div:nth-child(1) .bal-item p,
+.lend .stock > div:nth-child(2) .bal-item p {
+    margin-bottom: 16px;
+}
+.lend .month-price .spi .card-header {
+    background: #091c2c;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.lend .month-price .spi .usd {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+.lend .month-price .spi .usd img {
+    width: auto;
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    max-width: 8px;
+}
+.lend .month-price .spi .icicb-inp {
+    position: relative;
+}
+.lend .month-price .spi input {
+    width: 100%;
+    border: none;
+    background: #f4f7fa;
+    padding: 10px 10px 10px 53px;
+    border-radius: 20px;
+}
+.lend .month-price .spi .icicb-inp img {
+    width: auto;
+    position: absolute;
+    top: 19%;
+    left: 3%;
+}
+.lend .month-price .spi .lock-period {
+    display: flex;
+    justify-content: space-between;
+}
+.lend .month-price .spi .lock-period > div {
+    text-align: center;
+}
+.lend .month-price .spi .card-body p:nth-child(3) {
+    margin: 20px 0px;
+}
+.lend .month-price .spi button {
+    margin: 30px 0px;
+    width: 100%;
+    border: 1px solid #091c2c;
+    color: #091c2c;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.lend .month-price .vote .card-header {
+    background: #091c2c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lend .month-price .vote .big-circle {
+    width: auto;
+    max-width: 150px;
+}
+.lend .month-price .vote .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+.lend .month-price .vote .card-body > div {
+    width: 70%;
+}
+.lend .month-price .vote .icon-group {
+    position: relative;
+}
+.lend .month-price .vote .circle1 {
+    width: auto;
+    height: auto;
+    max-width: 40px;
+}
+.lend .month-price .vote .circle2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.lend .month-price .vote tr td:first-child {
+    display: flex;
+    align-items: center;
+}
+.lend .month-price .vote tr td:first-child p {
+    margin: 0px;
+    padding-left: 10px;
+}
+.lend .month-price .vote .table th,
+td {
+    border-top: none !important;
+    color: #091c2c;
+}
+.lend .ic-stat .card-header {
+    background: #091c2c;
+    color: white;
+}
+.lend .ic-stat .card-body > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lend .ic-stat .card {
+    margin-bottom: 0px;
+}
+.lend .ic-stat button {
+    width: 100%;
+    border: #091c2c;
+    background: white;
+    border: 1px solid #091c2c;
+    padding: 6px;
+    border-radius: 20px;
+}
+.lend .ic-stat .next-block .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.lend .ic-stat .next-block .card-body > div {
+    text-align: center;
+    display: unset;
+}
+.lend .ic-stat .next-block .date {
+    display: flex;
+    align-items: center;
+}
+.lend .ic-stat .next-block input {
+    width: 30px;
+    height: 40px;
+    border: none;
+    background: #f4f7fa;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.lend .ic-stat .boost .card-header {
+    background: #091c2c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lend .ic-stat .boost .boost-left {
+    width: 65%;
+    display: unset;
+}
+.lend .ic-stat .boost .boost-right {
+    padding-top: 15%;
+    width: 35%;
+    display: unset;
+}
+.lend .ic-stat .boost .boost-right img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    margin-left: 30%;
+}
+.lend .ic-stat .boost .boost-left .auto-filter {
+    width: 100%;
+    padding: 30px 0px 16% 20px;
+}
+.lend .ic-stat .boost .card-body {
+    display: flex;
+    padding: 0px;
+}
+.lend .ic-stat .boost .boost-left .spec-header {
+    display: flex;
+}
+.lend .ic-stat .boost .boost-left .spec-header > div:last-child {
+    display: flex;
+}
+.lend .ic-stat .boost .boost-left .spec-header .card-header {
+    width: 60%;
+}
+.lend .boost .icon-group {
+    position: relative;
+}
+.lend .boost .circle1 {
+    width: auto;
+    height: auto;
+    max-width: 40px;
+}
+.lend .boost .circle2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.lend .boost .per-vote {
+    padding: 30px;
+}
+.lend .boost .per-vote > div {
+    position: relative;
+    margin-bottom: 20px;
+}
+.lend .boost .per-vote > div .icon-group {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.lend .boost .per-vote > div input {
+    width: 100%;
+    border: none;
+    background: #f4f7fa;
+    border-radius: 30px;
+    height: 60px;
+    padding-left: 96px;
+}
+.lend .boost .per-vote > p:last-child {
+    margin-top: 20px;
+}
+.lend .ic-stat .boost .boost-left .card {
+    border-radius: 0px;
+    box-shadow: unset;
+}
+.lend .ex-sort {
+    margin: auto;
+}
+.lend .ex-all {
+    justify-content: center;
+}
+.lend .ex-sort button {
+    background: #091c2c;
+    border-right: 1px solid #7c8187;
+    padding: 25px;
+    width: 25%;
+}
+.lend .ex-sort button:first-child {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.lend .ex-sort button:last-child {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.lend .ex-sort .css-1aquho2-MuiTabs-indicator {
+    background: unset;
+}
+.lend .ex-sort button:focus:not(:focus-visible) {
+    color: white;
+    background: #113049;
+}
+.lend .ex-sort button:not(:disabled),
+[type="button"]:not(:disabled) {
+    color: #7c8187;
+}
+.lend .css-heg063-MuiTabs-flexContainer {
+    justify-content: center;
+}
+.lend .apy {
+    background: unset;
+    box-shadow: unset;
+}
+.lend .apy img {
+    width: auto;
+    height: auto;
+    max-width: 120px;
+}
+.lend .balance-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.lend .balance-status .supply {
+    text-align: center;
+}
+.lend .balance-status .barrow {
+    text-align: center;
+}
+.lend .balance-status .apy {
+    margin: 0px 10%;
+    position: relative;
+}
+.lend .balance-status .apy > div {
+    position: absolute;
+    top: 36%;
+    left: 27%;
+}
+.lend .balance-status .apy.assets > div {
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+.lend .balance-status .apy > div:last-child p {
+    margin: 0px;
+    text-align: center;
+}
+.lend .balance-status .supply p:first-child {
+    color: #43c72d;
+}
+.lend .balance-status .barrow p:first-child {
+    color: #f97384;
+}
+.lend .balance-status .supply p:last-child {
+    font-size: 20px;
+}
+.lend .balance-status .barrow p:last-child {
+    font-size: 20px;
+}
+.lend .balance-pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.lend .balance-pro > p {
+    margin: 0px;
+    text-align: center;
+}
+.lend .balance-pro > span {
+    width: 80%;
+    margin: 0px 10px;
+}
+.lend .tbl-balance .card-header {
+    background: #091c2c;
+    display: flex;
+}
+.lend .tbl-balance .card-header {
+    color: white;
+    justify-content: space-between;
+}
+.lend .tbl-balance img {
+    width: auto;
+    height: auto;
+    max-width: 20px;
+    max-height: 20px;
+}
+.lend .tbl-balance p {
+    margin: 0px;
+}
+.lend .tbl-balance tr td:first-child {
+    display: flex;
+}
+.lend .tbl-balance tr td:nth-child(2) {
+    color: #43c72d;
+}
+.lend .tbl-balance .table th,
+.table td {
+    border-top: unset;
+    border-bottom: unset;
+}
+.lend .tbl-balance .table th {
+    color: #091c2c;
+}
+.lend .wbtc img {
+    width: auto;
+    height: auto;
+    max-height: 30px;
+    max-width: 20px;
+}
+.lend .wbtc .card-header {
+    background: #091c2c;
+    color: white;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.lend .wbtc .card-header .card-title {
+    padding-left: 5px;
+}
+.lend .wbtc .card-body {
+    padding: 20px 60px;
+}
+.lend .wbtc .card-footer .total {
+    text-align: center;
+    border-bottom: 1px solid #b6b9bb;
+}
+.lend .wbtc .factor {
+    display: flex;
+    justify-content: space-between;
+}
+.lend .wbtc .factor > div {
+    text-align: center;
+}
+.lend .wbtc .factor > div p:first-child {
+    color: #b6b9bb;
+    font-size: 12px;
+}
+@media only screen and (max-width: 1500px) {
+	.lend .wbtc span {
+    	font-size: 10px;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .lend .banner > div:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lend {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+    .lend .stock > div:nth-child(2) .bal-item {
+        border-left: none;
+        border-right: none;
+    }
+    .lend .stock > div:nth-child(3) .bal-item {
+        border-right: none;
+    }
+    .lend .month-price .vote .card-body > div {
+        width: 100%;
+    }
+    .lend .month-price .vote .card-body {
+        flex-direction: column;
+    }
+    .lend .ic-stat .boost .card-body {
+        flex-direction: column;
+    }
+    .lend .ic-stat .boost .boost-left {
+        width: 100%;
+    }
+    .lend .ic-stat .boost .boost-right {
+        width: 100%;
+    }
+    .lend .balance-status {
+        flex-direction: column;
+    }
+    .lend .wbtc span {
+    	font-size: unset;
+    }
+}
