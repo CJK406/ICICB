@@ -19,6 +19,7 @@
 .farm .opt-left {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .farm .opt-left i {
     font-size: 20px;
@@ -27,6 +28,7 @@
     font-size: 20px;
     padding-left: 3%;
     padding-right: 10%;
+    margin-left: 10px;
 }
 .farm .opt-left p {
     margin: 0px;
@@ -155,6 +157,12 @@
     padding: 8px;
     border-radius: 20px;
 }
+.farm .opt-left > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 @media only screen and (max-width: 1020px) {
     .farm .opt-left p:nth-child(4) {
         padding-right: 7%;
@@ -170,5 +178,11 @@
     }
     .farm .css-mh4vj5.Switch-checked {
         left: 49%;
+    }
+    .farm .opt-left i.fa-th-list {
+    	padding-right: 0px;
+    } 
+    .farm .css-hzfpnx.Switch-checked {
+    	left: 50%;
     }
 }

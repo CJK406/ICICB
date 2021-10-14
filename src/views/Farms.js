@@ -98,12 +98,18 @@ export default function Farms() {
             <Row className="search-opt">
                 <Col lg="5" md="12" sm="12" className="mb-3 text-right">
                     <div className="opt-left">
-                        <i class="fas fa-grip-horizontal"></i>
-                        <i class="fas fa-th-list"></i>
-                        <BasicSwitch defaultChecked />
-                        <CardText>Staked Only</CardText>
-                        <button className="btn-active">Active</button>
-                        <CardText>Inactive</CardText>
+                        <div>
+                            <i class="fas fa-grip-horizontal"></i>
+                            <i class="fas fa-th-list"></i>
+                        </div>
+                        <div>
+                            <BasicSwitch defaultChecked />
+                            <CardText>Staked Only</CardText>
+                        </div>    
+                        <div>
+                            <button className="btn-active">Active</button>
+                            <CardText>Inactive</CardText>
+                        </div>
                     </div>
                 </Col>
                 <Col lg="5" md="12" sm="12" className="mb-3 text-right">

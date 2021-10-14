@@ -10,6 +10,9 @@
 .sidebar .logo:after {
     background-color: unset !important;
 }
+.ps--active-y::-webkit-scrollbar { 
+    width: 0 !important;  /* Safari and Chrome */
+}
 .sidebar .nav li > a,
 .off-canvas-sidebar .nav li > a {
     text-transform: unset;
